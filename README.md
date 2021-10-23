@@ -8,13 +8,18 @@
 
 ## Skład drużyny (imiona i nazwiska oraz rodzaj zaangażowania w projekcie np. programista, grafik, projektant)
 [Stanisław Nieradko](https://nieradko.com/) - koordynator, backend
+
 [Błażej Sak](https://github.com/bsak2003) - backend
-[Krzysztof Nasuta](https://github.com/Nasus20202) - backend 
+
+[Krzysztof Nasuta](https://github.com/Nasus20202) - backend
+
 [Piotr Trybisz](https://ptrybisz.tk/) - frontend
+
 [Bartłomiej Krawisz](https://gitlab.com/ketrab2003) - mobile
 
 ## Nazwa szkoły lub szkół
-Stanisław Nieradko, Błażej Sak - XX Liceum Ogólnokształcące im. Zbigniewa Herberta w Gdańsku 
+Stanisław Nieradko, Błażej Sak - XX Liceum Ogólnokształcące im. Zbigniewa Herberta w Gdańsku
+
 Krzysztof Nasuta, Piotr Trybisz, Bartłomiej Krawisz - V Liceum Ogólnokształcące im. Stefana Żeromskiego w Gdańsku
 
 ## Link do pracy (lub ewentualnie Login/Hasło do prywatnego repozytorium)
@@ -37,7 +42,9 @@ Krzysztof Nasuta, Piotr Trybisz, Bartłomiej Krawisz - V Liceum Ogólnokształc�
 
 ## W jakich językach programowania, jakich technologiach powstała aplikacja/narzędzie?
 backend: C# 9.0 (runtime .NET 5, framework ASP.NET Core 5 wraz z Entity i Identity)
+
 web: TypeScript, Astro, Svelte
+
 mobile: Dart (Flutter)
 
 ## Opisz działanie Waszej aplikacji/narzędzia (w jaki sposób działa Wasza aplikacja? co może dzięki niej osiągnąć użytkownik? jaką ma funkcjonalność?)
