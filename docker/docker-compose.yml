@@ -1,14 +1,15 @@
 version: '3.3'
 services:
   api:
-    image: ghcr.io/czydobrze/czydobrze-api
+    image: ghcr.io/czydobrze/czydobrze.api
     restart: unless-stopped
     expose:
       - 80
     volumes:
-      - ./db:/app/db
+      - ./db/database.db:/app/czydobrze.db
+      - ./auth0/rsa.xml:/app/rsa.xml
   web:
-    image: ghcr.io/czydobrze/czydobrze-web
+    image: ghcr.io/czydobrze/czydobrze.web
     restart: unless-stopped
     expose:
       - 80
