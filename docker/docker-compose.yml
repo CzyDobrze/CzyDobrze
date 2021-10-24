@@ -1,0 +1,26 @@
+version: '3.3'
+services:
+  api:
+    image: ghcr.io/czydobrze/czydobrze-api
+    restart: unless-stopped
+    expose:
+      - 80
+    volumes:
+      - ./db:/app/db
+  web:
+    image: ghcr.io/czydobrze/czydobrze-web
+    restart: unless-stopped
+    expose:
+      - 80
+  gateway:
+    image: nginx
+    restart: unless-stopped
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+      - ./ssl:/etc/nginx/ssl
+    depends_on:
+      - api
+      - web
